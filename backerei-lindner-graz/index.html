@@ -1,0 +1,547 @@
+<!doctype html>
+<html lang="de-AT">
+<head>
+<meta name="robots" content="noindex, nofollow">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bäckerei Lindner – Brot, Gebäck und Torten aus Graz</title>
+<meta name="description" content="Bäckerei Lindner in der Annenstraße, Graz: Sauerteigbrot, Gebäck und Torten auf Bestellung. Vorbestellen per E-Mail, Lieferung in Graz.">
+<meta name="lead-id" content="L0010">
+<link rel="stylesheet" href="styles.css">
+<script src="script.js" defer></script>
+</head>
+<body data-style="food" data-site="online_store">
+<script type="application/json" id="build-brief">
+{
+  "lead_id": "L0010",
+  "site_type": "online_store",
+  "template": "NEW OUTCHRECH",
+  "style_niche": "food",
+  "style_reason": "Bäckerei: Lebensmittel mit Verzehrcharakter, warme Handwerksanmutung passt zum Redbrick-Stil.",
+  "language": "de-AT", "currency": "EUR", "country": "AT", "city": "Graz",
+  "business": { "name": "Bäckerei Lindner", "summary": "Traditionelle Bäckerei in der Annenstraße in Graz mit Brot, Gebäck und Torten auf Bestellung.", "audience": "Haushalte und Feiernde in Graz", "positioning": "Herzlich, traditionell, handwerklich" },
+  "tone": "Herzlich, traditionell, Sie-Form (notes); Redbrick-Regeln: warm, schlicht, keine Ausrufezeichen",
+  "primary_cta": { "label": "Jetzt vorbestellen", "action": "mailto:info@baeckerei-lindner.test?subject=Vorbestellung", "why": "Die Telefonnummer in der CSV ist ungültig (#ERROR!) und wird nicht verwendet; Vorbestellung läuft per E-Mail." },
+  "secondary_cta": { "label": "Sortiment ansehen", "action": "#collection/alle" },
+  "contact": { "email": "info@baeckerei-lindner.test", "phone": "", "address": "Annenstraße 41, 8020 Graz", "maps": "https://maps.google.com/?cid=4005", "hours": ["Mo–Fr 6:30–18:00", "Sa 7:00–12:00"] },
+  "offer": {
+    "services": ["Vorbestellung", "Torten auf Bestellung", "Lieferung in Graz"],
+    "products": [
+      { "name": "Sauerteigbrot", "price": 5.9, "category": "Brot Kaisersemmel" },
+      { "name": "Kaisersemmeln", "price": 3.6, "category": "Brot Kaisersemmel" },
+      { "name": "Roggenvollkornbrot", "price": 4.8, "category": "Brot Kaisersemmel" },
+      { "name": "Butter-Croissant", "price": 1.9, "category": "Gebäck" },
+      { "name": "Topfengolatsche", "price": 2.4, "category": "Gebäck" },
+      { "name": "Nussschnecke", "price": 2.6, "category": "Gebäck" },
+      { "name": "Sachertorte", "price": 24, "category": "Torten" },
+      { "name": "Topfentorte", "price": 22, "category": "Torten" },
+      { "name": "Linzer Kekse", "price": 6.5, "category": "Süßes" },
+      { "name": "Vanillekipferl", "price": 7.2, "category": "Süßes" }
+    ],
+    "categories": ["Brot Kaisersemmel", "Gebäck", "Torten", "Süßes"]
+  },
+  "proof": { "google_rating": 4.7, "review_count": 143 },
+  "pages": ["home", "about", "collections", "collection/*", "product/*", "cart", "contact"],
+  "generated_content": [
+    "Produkte 2–10 inkl. Preise, Beschreibungen, Highlights, Varianten und Badges (CSV enthielt nur Sauerteigbrot)",
+    "Kategorien Gebäck, Torten, Süßes und deren Beschreibungen sowie Zutaten-Listen",
+    "Gründungsjahr 1974, Gründerzitat, Prozessschritte, Partnerbetriebe (Lieferanten)",
+    "Kundenbewertungen (Namen, Bezirke, Texte), Journal-Artikel, Videokarten, UGC-Handle @baeckerei.lindner",
+    "Statistiken außer Google-Bewertung und Bewertungsanzahl (z. B. 12 Std. Teigruhe)",
+    "Frühstückskorb-Angebot (Summe der Einzelpreise), Rezept- und Lagerhinweise",
+    "Produktseiten, Kategorieseiten und Warenkorb werden aus dem Array PRODUCTS in script.js gerendert",
+    "Telefonnummer fehlt (CSV-Fehler); primärer CTA ist stattdessen die E-Mail-Vorbestellung"
+  ]
+}
+</script>
+<a class="skip" href="#main">Zum Inhalt springen</a>
+
+<div class="announce" data-announce>
+  <button class="ann-arrow" type="button" data-ann-prev aria-label="Vorherige Meldung">←</button>
+  <div class="ann-slides">
+    <p class="ann-msg active">Lieferung in Graz · Vorbestellung per E-Mail</p>
+    <p class="ann-msg">Torten auf Bestellung · Mo–Fr 6:30–18:00 · Sa 7:00–12:00</p>
+  </div>
+  <button class="ann-arrow" type="button" data-ann-next aria-label="Nächste Meldung">→</button>
+</div>
+
+<header class="site-header">
+  <div class="wrap header-in">
+    <button class="menu-btn" type="button" data-menu-toggle aria-expanded="false" aria-controls="nav">Menü</button>
+    <a class="logo" href="#home" aria-label="Bäckerei Lindner, Startseite"><span class="logo-mark" aria-hidden="true">▙</span> Bäckerei Lindner</a>
+    <nav class="nav" id="nav" aria-label="Hauptnavigation">
+      <a href="#collection/brot-kaisersemmel" data-nav>Brot Kaisersemmel</a>
+      <a href="#collection/gebaeck" data-nav>Gebäck</a>
+      <a href="#collection/torten" data-nav>Torten</a>
+      <a href="#collection/suesses" data-nav>Süßes</a>
+      <a href="#about" data-nav>Über uns</a>
+      <a href="#contact" data-nav>Kontakt</a>
+      <a class="nav-cta" href="mailto:info@baeckerei-lindner.test?subject=Vorbestellung">Vorbestellen</a>
+    </nav>
+    <div class="header-tools">
+      <button type="button" class="tool" data-search-open aria-label="Suche öffnen">Suche</button>
+      <a class="tool" href="#cart" data-nav aria-label="Warenkorb">Warenkorb (<span data-cart-count>0</span>)</a>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- ============ HOME ============ -->
+<section class="page" data-page="home" id="home">
+
+  <section data-section="hero-slideshow" class="hero" data-hero data-reveal>
+    <article class="slide active">
+      <div class="ph slide-media"><img data-pixabay="sourdough bread bakery" data-orientation="horizontal" alt="Frisch gebackenes Sauerteigbrot auf einem Holztisch" width="1600" height="900"></div>
+      <div class="wrap slide-copy">
+        <p class="label">Frisch aus Graz</p>
+        <h1 class="d-xl">Brot, wie es früher war.</h1>
+        <p class="lead">Traditionelles Handwerk aus der Annenstraße: Sauerteigbrot, Gebäck und Torten, jeden Morgen frisch gebacken.</p>
+        <p class="btn-row"><a class="btn" href="mailto:info@baeckerei-lindner.test?subject=Vorbestellung">Jetzt vorbestellen</a><a class="arrow-link" href="#collection/alle">Sortiment ansehen →</a></p>
+      </div>
+    </article>
+    <article class="slide">
+      <div class="ph slide-media"><img data-pixabay="cake bakery table" data-orientation="horizontal" alt="Torte auf einem Kuchenteller in der Backstube" width="1600" height="900"></div>
+      <div class="wrap slide-copy">
+        <p class="label">Auf Bestellung</p>
+        <h2 class="d-xl">Torten für Ihre Feste.</h2>
+        <p class="lead">Von der Sachertorte bis zur Topfentorte: Wir backen nach Ihren Wünschen und liefern in Graz.</p>
+        <p class="btn-row"><a class="btn" href="#collection/torten">Torten ansehen</a><a class="arrow-link" href="#contact">Lieferung in Graz →</a></p>
+      </div>
+    </article>
+    <div class="wrap hero-ctrl">
+      <div class="bars" data-hero-bars></div>
+      <div class="arrows"><button type="button" class="round" data-hero-prev aria-label="Vorheriger Slide">←</button><button type="button" class="round" data-hero-next aria-label="Nächster Slide">→</button></div>
+    </div>
+  </section>
+
+  <div class="marquee" data-section="marquee" aria-label="Unsere Versprechen"><div class="marquee-track"><span>Frisch gebacken</span><span>Vorbestellung</span><span>Lieferung in Graz</span><span>Seit Generationen</span></div></div>
+
+  <section class="sec" data-section="brand-story" data-reveal>
+    <div class="wrap split">
+      <div class="story-copy">
+        <p class="label">Unsere Geschichte</p>
+        <h2 class="d">Aus der Backstube in der Annenstraße.</h2>
+        <div class="story-photos">
+          <div class="ph r"><img data-pixabay="baker kneading dough" data-orientation="vertical" alt="Bäcker knetet Teig von Hand" width="400" height="530" loading="lazy"></div>
+          <div class="ph r"><img data-pixabay="flour wooden table" data-orientation="vertical" alt="Mehl und Teig auf einem Holztisch" width="400" height="530" loading="lazy"></div>
+        </div>
+        <p>Bei uns beginnt der Tag lange vor der Ladenöffnung. Der Teig ruht, der Ofen heizt, und die ersten Laibe duften durch die Annenstraße. Wir backen so, wie es unsere Kundschaft in Graz seit Jahren kennt: ehrlich, handwerklich und mit Zeit.</p>
+        <a class="arrow-link" href="#about">Unsere Geschichte →</a>
+      </div>
+      <div class="ph r media-tall"><img data-pixabay="bakery interior bread shelves" data-orientation="vertical" alt="Brotregal in einer traditionellen Bäckerei" width="800" height="1000" loading="lazy"></div>
+    </div>
+  </section>
+
+  <section class="sec soft" data-section="featured-launch" data-reveal>
+    <div class="wrap split">
+      <div class="ph r media-tall"><img data-pixabay="sourdough loaf sliced" data-orientation="vertical" alt="Aufgeschnittenes Sauerteigbrot mit knuspriger Kruste" width="800" height="1000" loading="lazy"></div>
+      <div class="copy">
+        <p class="label">Unser Klassiker</p>
+        <h2 class="d">Sauerteigbrot</h2>
+        <p class="sub">Krosse Kruste, mild-säuerlich, saftige Krume.</p>
+        <p>Unser Sauerteigbrot reift lange und wird im Steinofen ausgebacken. Es schmeckt zum Frühstück, zur Jause und noch am dritten Tag.</p>
+        <dl class="notes-row">
+          <div><dt class="label">Teig</dt><dd>Sauerteig, lange geführt</dd></div>
+          <div><dt class="label">Ofen</dt><dd>Steinofen, handgeformt</dd></div>
+          <div><dt class="label">Genuss</dt><dd>Zur Jause oder zum Frühstück</dd></div>
+        </dl>
+        <p class="proof"><span class="d-num">4,7 / 5</span><span>Google-Bewertung aus 143 Bewertungen</span></p>
+        <p class="btn-row"><button class="btn" type="button" data-add="sauerteigbrot">In den Warenkorb</button><a class="arrow-link" href="#product/sauerteigbrot">Zum Produkt →</a></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec center" data-section="brand-intro" data-reveal>
+    <div class="wrap narrow">
+      <p class="label">Über uns</p>
+      <h2 class="d">Herzlich willkommen bei Lindner.</h2>
+      <p class="lead">Wir sind eine Grazer Bäckerei mit Tradition. Bei uns bekommen Sie Brot, Gebäck und Torten, die nach Handwerk schmecken, und eine Beratung, die Zeit hat.</p>
+      <div class="stats">
+        <div><p class="d-num">4,7 / 5</p><p class="label">Google-Bewertung</p></div>
+        <div><p class="d-num">143</p><p class="label">Bewertungen</p></div>
+        <div><p class="d-num">1974</p><p class="label">Gegründet</p></div>
+      </div>
+      <a class="arrow-link" href="#about">Mehr über uns →</a>
+    </div>
+  </section>
+
+  <section class="sec" data-section="product-tabs" data-reveal>
+    <div class="wrap">
+      <div class="runhead"><p class="label">Beliebt in Graz</p><a class="arrow-link" href="#collection/alle">Alle Produkte →</a></div>
+      <h2 class="d">Unsere Bestseller</h2>
+      <div data-tabs="carousel"></div>
+    </div>
+  </section>
+
+  <section class="sec" data-section="product-tabs" data-reveal>
+    <div class="wrap">
+      <div class="runhead"><p class="label">Das ganze Sortiment</p><a class="arrow-link" href="#collections">Alle Kategorien →</a></div>
+      <h2 class="d">Entdecken Sie die Backstube.</h2>
+      <div data-tabs="featured"></div>
+    </div>
+  </section>
+
+  <section data-section="collection-spotlight" class="spot" data-reveal>
+    <div class="spot-media ph"><img data-pixabay="rye bread rolls bakery" data-orientation="vertical" alt="Brot und Semmeln in einem Korb" width="900" height="1200" loading="lazy">
+      <div class="spot-copy"><p class="label">Brot Kaisersemmel</p><h2 class="d">Täglich frisch aus dem Ofen.</h2><p>Brot und Kaisersemmeln, die wir jeden Morgen für Sie backen.</p><a class="arrow-link" href="#collection/brot-kaisersemmel">Kategorie ansehen →</a></div>
+    </div>
+    <div class="spot-grid" data-spot="brot-kaisersemmel"></div>
+  </section>
+
+  <section class="sec" data-section="image-hotspots" data-reveal>
+    <div class="wrap">
+      <p class="label">Der gedeckte Tisch</p>
+      <h2 class="d">Alles für die Jause.</h2>
+      <p class="lead">Tippen Sie auf einen Punkt und sehen Sie, was auf unserem Frühstückstisch liegt.</p>
+      <div class="hot ph r">
+        <img data-pixabay="breakfast table bread croissant" data-orientation="horizontal" alt="Gedeckter Frühstückstisch mit Brot, Croissants und Keksen" width="1400" height="800" loading="lazy">
+        <div class="hs" data-hs="sauerteigbrot" style="--x:28%;--y:42%"></div>
+        <div class="hs" data-hs="butter-croissant" style="--x:55%;--y:62%"></div>
+        <div class="hs" data-hs="linzer-kekse" style="--x:78%;--y:34%"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" data-section="mood-grid" data-reveal>
+    <div class="wrap">
+      <div class="runhead"><p class="label">Nach Anlass</p><a class="arrow-link" href="#collections">Alle Kategorien →</a></div>
+      <h2 class="d">Für jeden Anlass das Richtige.</h2>
+      <div class="moods">
+        <a class="mood" href="#collection/brot-kaisersemmel"><span class="label">01</span><h3>Frühstück</h3><p>Semmeln und Brot für einen guten Start.</p></a>
+        <a class="mood" href="#collection/gebaeck"><span class="label">02</span><h3>Kaffeejause</h3><p>Gebäck zum Kaffee am Nachmittag.</p></a>
+        <a class="mood" href="#collection/torten"><span class="label">03</span><h3>Geburtstag</h3><p>Torten nach Ihrem Wunsch.</p></a>
+        <a class="mood" href="#collection/torten"><span class="label">04</span><h3>Hochzeit</h3><p>Süße Begleiter für den großen Tag.</p></a>
+        <a class="mood" href="#collection/suesses"><span class="label">05</span><h3>Weihnachten</h3><p>Kipferl und Kekse aus der Backstube.</p></a>
+        <a class="mood" href="#collection/suesses"><span class="label">06</span><h3>Mitbringsel</h3><p>Kleine Freuden für liebe Gäste.</p></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" data-section="expanding-panels" data-reveal>
+    <div class="wrap">
+      <p class="label">Vier Kategorien</p>
+      <h2 class="d">Unsere Backstube im Überblick.</h2>
+      <div class="panels" data-panels>
+        <article class="panel active"><div class="ph"><img data-pixabay="loaf bread crust" data-orientation="vertical" alt="Brotlaib mit knuspriger Kruste" width="800" height="900" loading="lazy"></div><button type="button" class="panel-tab" aria-label="Brot Kaisersemmel öffnen"><span class="label">01</span><span class="vt">Brot Kaisersemmel</span></button><div class="panel-body"><p class="label">Brot Kaisersemmel</p><h3>Brot und Semmeln</h3><p>Sauerteigbrot, Roggenvollkornbrot und Kaisersemmeln.</p><a class="arrow-link" href="#collection/brot-kaisersemmel">Ansehen →</a></div></article>
+        <article class="panel"><div class="ph"><img data-pixabay="croissant pastry" data-orientation="vertical" alt="Butter-Croissants auf einem Blech" width="800" height="900" loading="lazy"></div><button type="button" class="panel-tab" aria-label="Gebäck öffnen"><span class="label">02</span><span class="vt">Gebäck</span></button><div class="panel-body"><p class="label">Gebäck</p><h3>Süßes Gebäck</h3><p>Croissants, Golatschen und Nussschnecken zum Kaffee.</p><a class="arrow-link" href="#collection/gebaeck">Ansehen →</a></div></article>
+        <article class="panel"><div class="ph"><img data-pixabay="chocolate cake sacher" data-orientation="vertical" alt="Schokoladentorte mit Glasur" width="800" height="900" loading="lazy"></div><button type="button" class="panel-tab" aria-label="Torten öffnen"><span class="label">03</span><span class="vt">Torten</span></button><div class="panel-body"><p class="label">Torten</p><h3>Torten auf Bestellung</h3><p>Sachertorte und Topfentorte für Ihre Feier.</p><a class="arrow-link" href="#collection/torten">Ansehen →</a></div></article>
+        <article class="panel"><div class="ph"><img data-pixabay="christmas cookies vanilla" data-orientation="vertical" alt="Vanillekipferl und Linzer Kekse" width="800" height="900" loading="lazy"></div><button type="button" class="panel-tab" aria-label="Süßes öffnen"><span class="label">04</span><span class="vt">Süßes</span></button><div class="panel-body"><p class="label">Süßes</p><h3>Kekse und Kipferl</h3><p>Linzer Kekse und Vanillekipferl zum Verschenken.</p><a class="arrow-link" href="#collection/suesses">Ansehen →</a></div></article>
+      </div>
+      <div class="panel-ctrl"><div class="bars" data-panel-bars></div><div class="arrows"><button type="button" class="round" data-panel-prev aria-label="Vorheriges Panel">←</button><button type="button" class="round" data-panel-next aria-label="Nächstes Panel">→</button></div></div>
+    </div>
+  </section>
+
+  <section class="sec soft" data-section="ritual-steps" data-reveal>
+    <div class="wrap split">
+      <div class="ph r media-tall"><img data-pixabay="paper bag bread bakery" data-orientation="vertical" alt="Brot in einer Papiertüte, bereit zum Mitnehmen" width="800" height="900" loading="lazy"></div>
+      <div class="copy">
+        <p class="label">So funktioniert es</p>
+        <h2 class="d">Auswählen. Bestellen. Genießen.</h2>
+        <p>Vorbestellen ist einfach: Sie legen Ihre Lieblinge in den Warenkorb und senden uns die Bestellung per E-Mail.</p>
+        <ol class="steps">
+          <li><span class="num">1</span><div><h3>Auswählen</h3><p>Stöbern Sie im Sortiment und legen Sie Produkte in den Warenkorb.</p></div></li>
+          <li><span class="num">2</span><div><h3>Vorbestellen</h3><p>Senden Sie uns Ihre Bestellung samt Wunschtermin per E-Mail.</p></div></li>
+          <li><span class="num">3</span><div><h3>Abholen oder liefern lassen</h3><p>Holen Sie ab oder lassen Sie sich in Graz beliefern.</p></div></li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <div class="marquee" data-section="marquee" aria-label="Unsere Werte"><div class="marquee-track"><span>Sauerteig</span><span>Handarbeit</span><span>Annenstraße 41</span><span>Torten auf Bestellung</span></div></div>
+
+  <section class="sec" data-section="promo-card" data-reveal>
+    <div class="wrap">
+      <div class="promo soft-card">
+        <div class="copy">
+          <p class="label">Zum Wochenende</p>
+          <h2 class="d">Frühstückskorb für zwei.</h2>
+          <p>Ein Sauerteigbrot, sechs Kaisersemmeln und zwei Butter-Croissants: alles, was ein langes Frühstück braucht.</p>
+          <p class="promo-price"><span class="d-num" data-bundle-total>0,00 €</span><span class="small">Summe der Einzelpreise, auf Vorbestellung</span></p>
+          <button class="btn" type="button" data-add-bundle="sauerteigbrot,kaisersemmeln,butter-croissant,butter-croissant">Korb in den Warenkorb</button>
+        </div>
+        <div class="ph r"><img data-pixabay="breakfast basket bread" data-orientation="horizontal" alt="Frühstückskorb mit Brot, Semmeln und Croissants" width="900" height="700" loading="lazy"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" data-section="before-after" data-reveal>
+    <div class="wrap split ba">
+      <div>
+        <div class="ba-stage-wrap">
+          <div class="ba-stage active" data-ba style="--pos:50%">
+            <div class="ph"><img data-pixabay="baked bread loaf" data-orientation="horizontal" alt="Fertig gebackener Brotlaib" width="900" height="900" loading="lazy"></div>
+            <div class="ph ba-before"><img data-pixabay="bread dough raw" data-orientation="horizontal" alt="Roher Brotteig vor dem Backen" width="900" height="900" loading="lazy"></div>
+            <span class="label tag l">Teig</span><span class="label tag r">Laib</span>
+            <input type="range" min="0" max="100" value="50" aria-label="Vergleich Teig und Laib verschieben">
+          </div>
+          <div class="ba-stage" data-ba style="--pos:50%">
+            <div class="ph"><img data-pixabay="baked croissants golden" data-orientation="horizontal" alt="Goldbraun gebackene Croissants" width="900" height="900" loading="lazy"></div>
+            <div class="ph ba-before"><img data-pixabay="croissant dough" data-orientation="horizontal" alt="Ungebackene Croissants auf dem Blech" width="900" height="900" loading="lazy"></div>
+            <span class="label tag l">Teig</span><span class="label tag r">Croissant</span>
+            <input type="range" min="0" max="100" value="50" aria-label="Vergleich Teig und Croissant verschieben">
+          </div>
+        </div>
+        <div class="ba-thumbs"><button type="button" class="active" data-ba-thumb="0">Brot</button><button type="button" data-ba-thumb="1">Croissant</button></div>
+      </div>
+      <div class="copy">
+        <p class="label">Handwerk</p>
+        <h2 class="d">Vom Teig zum Laib.</h2>
+        <p>Ziehen Sie den Regler und sehen Sie, was Zeit und Hitze aus einem einfachen Teig machen.</p>
+        <div class="stats two">
+          <div><p class="d-num">12 Std.</p><p class="small">Teigruhe beim Sauerteigbrot</p></div>
+          <div><p class="d-num">6:30</p><p class="small">Uhr, Ladenöffnung Mo–Fr</p></div>
+          <div><p class="d-num">4,7</p><p class="small">Google-Bewertung</p></div>
+          <div><p class="d-num">143</p><p class="small">Bewertungen bei Google</p></div>
+        </div>
+        <p class="small">Fotos zur Illustration. Teigruhe und Backzeiten können je nach Sorte abweichen.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" data-section="testimonials" data-reveal>
+    <div class="wrap">
+      <div class="center">
+        <p class="label">Bewertungen</p>
+        <h2 class="d">Das sagen unsere Kundinnen und Kunden.</h2>
+        <p class="rating-line"><span class="d-num">4,7 / 5</span> <span class="label">143 Bewertungen bei Google</span></p>
+      </div>
+      <div class="cards3 snap" data-snap>
+        <blockquote class="soft-card"><p class="rev-quote">“Das Sauerteigbrot ist das beste in ganz Graz. Die Kruste knackt noch am zweiten Tag.”</p><p class="small">Maria K., Geidorf</p></blockquote>
+        <blockquote class="soft-card"><p class="rev-quote">“Die Sachertorte zum Geburtstag war pünktlich da und hat allen geschmeckt. Sehr freundlich.”</p><p class="small">Thomas H., Lend</p></blockquote>
+        <blockquote class="soft-card"><p class="rev-quote">“Jeden Samstag holen wir Semmeln und Croissants. Das gehört bei uns einfach dazu.”</p><p class="small">Elisabeth R., Gries</p></blockquote>
+      </div>
+      <div class="dots" data-dots></div>
+    </div>
+  </section>
+
+  <section class="sec" data-section="video-carousel" data-reveal>
+    <div class="wrap vc">
+      <div class="vc-intro">
+        <p class="label">Gemeinschaft</p>
+        <h2 class="d">Aus unserer Backstube.</h2>
+        <p>Kurze Einblicke in unseren Alltag, vom Teig bis zur Theke.</p>
+        <div class="arrows"><button type="button" class="round" data-vc-prev aria-label="Zurück">←</button><button type="button" class="round" data-vc-next aria-label="Weiter">→</button><span class="label" data-vc-count>01 / 04</span></div>
+      </div>
+      <div class="vc-track" data-vc>
+        <a class="vcard ph r" href="#product/sauerteigbrot"><img data-pixabay="baker bread oven" data-orientation="vertical" alt="Bäcker holt Brot aus dem Ofen" width="460" height="800" loading="lazy"><span class="vtitle"><span class="label">Ofenfrisch</span>Sauerteigbrot</span></a>
+        <a class="vcard ph r" href="#product/butter-croissant"><img data-pixabay="croissant making pastry" data-orientation="vertical" alt="Croissants werden geformt" width="460" height="800" loading="lazy"><span class="vtitle"><span class="label">Handgeformt</span>Butter-Croissant</span></a>
+        <a class="vcard ph r" href="#product/sachertorte"><img data-pixabay="decorating chocolate cake" data-orientation="vertical" alt="Torte wird verziert" width="460" height="800" loading="lazy"><span class="vtitle"><span class="label">Auf Bestellung</span>Sachertorte</span></a>
+        <a class="vcard ph r" href="#product/vanillekipferl"><img data-pixabay="vanilla crescent cookies" data-orientation="vertical" alt="Vanillekipferl mit Staubzucker" width="460" height="800" loading="lazy"><span class="vtitle"><span class="label">Zum Verschenken</span>Vanillekipferl</span></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" data-section="journal-teaser" data-reveal>
+    <div class="wrap">
+      <div class="runhead"><p class="label">Aus dem Journal</p><a class="arrow-link" href="#about">Über uns →</a></div>
+      <h2 class="d">Geschichten aus der Backstube.</h2>
+      <div class="cards3">
+        <article class="jcard"><div class="ph r"><img data-pixabay="sourdough starter jar" data-orientation="horizontal" alt="Sauerteigansatz im Glas" width="600" height="400" loading="lazy"></div><p class="label">12. März</p><h3>Warum guter Sauerteig Zeit braucht</h3><details><summary class="arrow-link">Lesen →</summary><p>Ein Sauerteig lebt von Geduld. Wir füttern ihn regelmäßig und geben dem Teig die Ruhe, die er für Geschmack und Bekömmlichkeit braucht.</p></details></article>
+        <article class="jcard"><div class="ph r"><img data-pixabay="bread storage kitchen" data-orientation="horizontal" alt="Brot in einer Küche aufbewahrt" width="600" height="400" loading="lazy"></div><p class="label">28. Februar</p><h3>So bleibt Brot länger frisch</h3><details><summary class="arrow-link">Lesen →</summary><p>Lagern Sie Brot trocken, in einem Leinensack oder Brotkasten. Im Kühlschrank wird die Krume schneller hart.</p></details></article>
+        <article class="jcard"><div class="ph r"><img data-pixabay="vienna coffee house cake" data-orientation="horizontal" alt="Kaffee und Torte auf einem Kaffeehaustisch" width="600" height="400" loading="lazy"></div><p class="label">9. Februar</p><h3>Die Sachertorte: ein Grazer Familienrezept</h3><details><summary class="arrow-link">Lesen →</summary><p>Unsere Sachertorte folgt einem alten Rezept: saftiger Schokoladenteig, feine Marillenmarmelade und eine dünne Glasur.</p></details></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" data-section="ugc-mosaic" data-reveal>
+    <div class="wrap center">
+      <h2 class="d-xl">Ihre Brotzeit.</h2>
+      <p class="lead">Zeigen Sie uns Ihren Frühstückstisch und taggen Sie <strong>@baeckerei.lindner</strong>. Wir freuen uns über jedes Foto.</p>
+    </div>
+    <div class="mosaic">
+      <div class="ph big"><img data-pixabay="family breakfast bread" data-orientation="all" alt="Familie beim Frühstück mit frischem Brot" width="800" height="800" loading="lazy"></div>
+      <div class="ph"><img data-pixabay="bread butter knife" data-orientation="all" alt="Brot mit Butter" width="400" height="400" loading="lazy"></div>
+      <div class="ph"><img data-pixabay="coffee croissant" data-orientation="all" alt="Kaffee und Croissant" width="400" height="400" loading="lazy"></div>
+      <div class="ph"><img data-pixabay="birthday cake candles" data-orientation="all" alt="Geburtstagstorte mit Kerzen" width="400" height="400" loading="lazy"></div>
+      <div class="ph"><img data-pixabay="cookies tin gift" data-orientation="all" alt="Kekse in einer Geschenkdose" width="400" height="400" loading="lazy"></div>
+      <div class="ph big"><img data-pixabay="picnic bread cheese" data-orientation="all" alt="Jause mit Brot und Käse" width="800" height="800" loading="lazy"></div>
+      <div class="ph"><img data-pixabay="bread rolls basket" data-orientation="all" alt="Semmeln im Korb" width="400" height="400" loading="lazy"></div>
+      <div class="ph"><img data-pixabay="pastry display bakery" data-orientation="all" alt="Gebäck in der Auslage" width="400" height="400" loading="lazy"></div>
+    </div>
+  </section>
+
+  <section data-section="usp-strip" class="usp">
+    <div class="wrap usp-in">
+      <div><p class="label">Lieferung</p><p>Lieferung in Graz</p></div>
+      <div><p class="label">Torten</p><p>Torten auf Bestellung</p></div>
+      <div><p class="label">Frisch</p><p>Täglich frisch gebacken</p></div>
+      <div><p class="label">Vorbestellung</p><p><a class="arrow-link" href="mailto:info@baeckerei-lindner.test?subject=Vorbestellung">Per E-Mail vorbestellen →</a></p></div>
+    </div>
+  </section>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section class="page" data-page="about" id="about">
+  <section data-section="page-hero" class="phero">
+    <div class="ph"><img data-pixabay="traditional bakery storefront" data-orientation="horizontal" alt="Traditionelle Bäckerei mit Schaufenster" width="1600" height="700"></div>
+    <div class="phero-copy"><p class="label">Unsere Geschichte</p><h1 class="d-xl">Über uns</h1><p class="lead">Bäckerei Lindner steht seit Generationen für Brot und Gebäck, das nach Handwerk schmeckt. Mitten in Graz, in der Annenstraße.</p></div>
+  </section>
+  <section class="sec" data-section="image-with-text" data-reveal>
+    <div class="wrap split">
+      <div class="copy"><p class="label">Der Anfang</p><h2 class="d">Wie alles begann.</h2><p>1974 hat die Familie Lindner die ersten Semmeln in der Annenstraße gebacken. Aus dem kleinen Ofen wurde eine Backstube, aus Nachbarn wurden Stammkunden. Geblieben ist das Wichtigste: Zeit für den Teig und ein offenes Ohr für jeden, der zur Tür hereinkommt.</p><a class="btn" href="#collection/alle">Zum Sortiment</a></div>
+      <div class="ph r media-tall"><img data-pixabay="old bakery oven" data-orientation="horizontal" alt="Alter Steinofen in einer Backstube" width="900" height="780" loading="lazy"></div>
+    </div>
+  </section>
+  <section class="sec soft" data-section="value-cards" data-reveal>
+    <div class="wrap">
+      <h2 class="d center">Wofür wir stehen.</h2>
+      <div class="cards3">
+        <article class="soft-card white"><span class="label">Handwerk</span><h3>Zeit für den Teig</h3><p>Unsere Teige ruhen, bis sie bereit sind. Das schmeckt man.</p></article>
+        <article class="soft-card white"><span class="label">Herkunft</span><h3>Regional gedacht</h3><p>Wir arbeiten mit Betrieben aus der Steiermark zusammen, wo immer es möglich ist.</p></article>
+        <article class="soft-card white"><span class="label">Herzlichkeit</span><h3>Persönlich beraten</h3><p>Ob Brot oder Torte: Wir nehmen uns Zeit für Ihre Wünsche.</p></article>
+      </div>
+    </div>
+  </section>
+  <section class="sec" data-section="ritual-steps" data-reveal>
+    <div class="wrap split">
+      <div class="ph r media-tall"><img data-pixabay="baker shaping loaves" data-orientation="vertical" alt="Bäcker formt Brotlaibe in der Backstube" width="800" height="900" loading="lazy"></div>
+      <div class="copy"><p class="label">Unser Prozess</p><h2 class="d">So backen wir.</h2>
+        <ol class="steps">
+          <li><span class="num">01</span><div><h3>Ansetzen</h3><p>Am Vorabend setzen wir Sauerteig und Vorteige an.</p></div></li>
+          <li><span class="num">02</span><div><h3>Formen</h3><p>In den frühen Morgenstunden formen wir Brote und Gebäck von Hand.</p></div></li>
+          <li><span class="num">03</span><div><h3>Backen</h3><p>Der Ofen gibt Kruste und Aroma, bis alles goldbraun ist.</p></div></li>
+          <li><span class="num">04</span><div><h3>Anrichten</h3><p>Ab 6:30 Uhr liegt alles frisch in der Auslage oder ist für Sie verpackt.</p></div></li>
+        </ol>
+      </div>
+    </div>
+  </section>
+  <section class="quote" data-section="quote-banner">
+    <div class="ph"><img data-pixabay="flour dust bakery dark" data-orientation="horizontal" alt="Mehlstaub in der Backstube" width="1600" height="600" loading="lazy"></div>
+    <div class="wrap quote-in"><p class="d">“Ein gutes Brot braucht drei Dinge: gutes Mehl, Geduld und Hände, die es lieben.”</p><p class="label">Familie Lindner, Bäckerei</p></div>
+  </section>
+  <section class="sec" data-section="stats-cards" data-reveal>
+    <div class="wrap">
+      <div class="runhead"><p class="label">Zahlen</p><a class="arrow-link" href="#contact">Besuchen Sie uns →</a></div>
+      <h2 class="d">Bäckerei Lindner in Zahlen.</h2>
+      <div class="cards4">
+        <div class="soft-card"><p class="d-num">4,7 / 5</p><p class="small">Google-Bewertung</p></div>
+        <div class="soft-card"><p class="d-num">143</p><p class="small">Bewertungen bei Google</p></div>
+        <div class="soft-card"><p class="d-num">1974</p><p class="small">Gegründet in der Annenstraße</p></div>
+        <div class="soft-card"><p class="d-num">6:30</p><p class="small">Uhr öffnen wir von Montag bis Freitag</p></div>
+      </div>
+    </div>
+  </section>
+  <section class="sec" data-section="logo-list">
+    <div class="wrap center">
+      <p class="label">Unsere Partner</p>
+      <p class="partners"><span>Mühle Hartl</span> · <span>Sennerei Gleinstätten</span> · <span>Imkerei Sonnleitner</span> · <span>Obsthof Pfeifer</span> · <span>Steirische Eier Gruber</span></p>
+    </div>
+  </section>
+  <section class="cta" data-section="cta-band">
+    <div class="wrap cta-in"><div><h2 class="d">Hunger bekommen?</h2><p>Stöbern Sie im Sortiment oder schreiben Sie uns Ihre Vorbestellung.</p></div><p class="btn-row"><a class="btn" href="mailto:info@baeckerei-lindner.test?subject=Vorbestellung">Jetzt vorbestellen</a><a class="btn" href="#contact">Kontakt</a></p></div>
+  </section>
+</section>
+
+<!-- ============ COLLECTIONS LIST ============ -->
+<section class="page" data-page="collections" id="collections">
+  <div class="wrap">
+    <nav class="crumbs" aria-label="Brotkrumen"><a href="#home">Startseite</a> / <span aria-current="page">Kategorien</span></nav>
+    <header class="pagehead"><h1 class="d-xl">Kategorien</h1><p class="small" data-coll-count></p></header>
+    <a class="banner ph r" href="#collection/torten"><img data-pixabay="wedding cake bakery" data-orientation="horizontal" alt="Festliche Torte aus der Bäckerei" width="1400" height="440" loading="lazy"><span class="banner-copy"><span class="label">Auf Bestellung</span><span class="d">Torten für Ihre Feste</span><span class="arrow-link">Torten ansehen →</span></span></a>
+    <h2 class="d grid-h">Nach Kategorie stöbern</h2>
+    <div class="cards3" data-coll-grid></div>
+  </div>
+  <section class="sec" data-section="mood-grid">
+    <div class="wrap">
+      <h2 class="d">Nach Anlass</h2>
+      <div class="pills">
+        <a class="pill" href="#collection/brot-kaisersemmel"><strong>Frühstück</strong><span class="small">Brot ansehen</span></a>
+        <a class="pill" href="#collection/gebaeck"><strong>Kaffeejause</strong><span class="small">Gebäck ansehen</span></a>
+        <a class="pill" href="#collection/torten"><strong>Geburtstag</strong><span class="small">Torten ansehen</span></a>
+        <a class="pill" href="#collection/torten"><strong>Hochzeit</strong><span class="small">Torten ansehen</span></a>
+        <a class="pill" href="#collection/suesses"><strong>Weihnachten</strong><span class="small">Süßes ansehen</span></a>
+        <a class="pill" href="#collection/suesses"><strong>Mitbringsel</strong><span class="small">Süßes ansehen</span></a>
+      </div>
+    </div>
+  </section>
+  <section data-section="usp-strip" class="usp"><div class="wrap usp-in">
+    <div><p class="label">Lieferung</p><p>Lieferung in Graz</p></div><div><p class="label">Torten</p><p>Torten auf Bestellung</p></div><div><p class="label">Frisch</p><p>Täglich frisch gebacken</p></div><div><p class="label">Vorbestellung</p><p>Per E-Mail oder im Laden</p></div></div></section>
+</section>
+
+<!-- Collection and product pages are rendered from PRODUCTS in script.js (data-page="collection/{slug}", "product/{slug}") -->
+
+<!-- ============ CART ============ -->
+<section class="page" data-page="cart" id="cart">
+  <div class="wrap">
+    <header class="pagehead"><h1 class="d-xl">Warenkorb</h1><a class="arrow-link" href="#collection/alle">Weiter einkaufen →</a></header>
+    <p class="notice">Bezahlt wird bei Abholung oder Lieferung. Ihre Bestellung senden Sie uns per E-Mail, wir bestätigen sie persönlich.</p>
+    <div class="cart-layout">
+      <div data-cart-items></div>
+      <aside class="soft-card summary" data-cart-summary></aside>
+    </div>
+    <section class="sec" data-section="product-recommendations"><div class="runhead"><p class="label">Dazu passt</p><a class="arrow-link" href="#collection/alle">Alle Produkte →</a></div><div class="pgrid" data-recs></div></section>
+  </div>
+  <section data-section="usp-strip" class="usp"><div class="wrap usp-in">
+    <div><p class="label">Lieferung</p><p>Lieferung in Graz</p></div><div><p class="label">Torten</p><p>Torten auf Bestellung</p></div><div><p class="label">Frisch</p><p>Täglich frisch gebacken</p></div><div><p class="label">Kontakt</p><p><a href="mailto:info@baeckerei-lindner.test">info@baeckerei-lindner.test</a></p></div></div></section>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="page" data-page="contact" id="contact">
+  <div class="wrap">
+    <header class="contact-head"><p class="label">Kontakt</p><h1 class="d-xl">Schreiben Sie uns.</h1><p class="lead">Fragen zu einer Bestellung, einer Torte oder der Lieferung in Graz? Wir freuen uns auf Ihre Nachricht.</p></header>
+    <div class="contact-layout">
+      <form class="soft-card cform" data-contact-form novalidate>
+        <label class="label" for="cf-name">Name</label><input id="cf-name" name="name" type="text" placeholder="Ihr vollständiger Name" autocomplete="name" required>
+        <label class="label" for="cf-mail">E-Mail</label><input id="cf-mail" name="email" type="email" placeholder="sie@beispiel.at" autocomplete="email" required>
+        <label class="label" for="cf-msg">Nachricht</label><textarea id="cf-msg" name="message" rows="5" placeholder="Wie können wir Ihnen helfen?" required></textarea>
+        <p class="error" data-form-error role="alert"></p>
+        <p class="success" data-form-ok role="status"></p>
+        <p class="small">Wir antworten innerhalb von zwei Werktagen.</p>
+        <button class="btn" type="submit">Nachricht senden</button>
+      </form>
+      <div class="channels"><a href="tel:" hidden style="display:none" data-phone-link>Telefon</a>
+        <div class="chan"><p class="label">Vorbestellung</p><h3>Brot und Gebäck</h3><a class="arrow-link" href="mailto:info@baeckerei-lindner.test?subject=Vorbestellung">info@baeckerei-lindner.test →</a></div>
+        <div class="chan"><p class="label">Torten auf Bestellung</p><h3>Feiern und Feste</h3><a class="arrow-link" href="mailto:info@baeckerei-lindner.test?subject=Tortenbestellung">Torte anfragen →</a></div>
+        <div class="chan"><p class="label">Im Laden</p><h3>Annenstraße 41, 8020 Graz</h3><p>Mo–Fr 6:30–18:00<br>Sa 7:00–12:00</p><a class="arrow-link" href="https://maps.google.com/?cid=4005" target="_blank" rel="noopener">Route planen →</a></div>
+      </div>
+    </div>
+  </div>
+  <section class="sec" data-section="studio-banner">
+    <div class="studio ph"><img data-pixabay="bakery counter bread" data-orientation="horizontal" alt="Verkaufstheke einer Bäckerei mit frischem Brot" width="1600" height="500" loading="lazy">
+      <div class="studio-copy"><h2 class="d">Nicht sicher, was es sein soll?</h2><p>Kommen Sie vorbei oder schreiben Sie uns. Wir beraten Sie gern.</p><a class="arrow-link" href="#collection/alle">Sortiment ansehen →</a></div></div>
+  </section>
+</section>
+
+</main>
+
+<footer class="site-footer" data-section="footer">
+  <div class="wrap">
+    <div class="f-cols">
+      <div><p class="label">Sortiment</p><ul><li><a href="#collection/brot-kaisersemmel">Brot Kaisersemmel</a></li><li><a href="#collection/gebaeck">Gebäck</a></li><li><a href="#collection/torten">Torten</a></li><li><a href="#collection/suesses">Süßes</a></li></ul></div>
+      <div><p class="label">Bäckerei</p><ul><li><a href="#about">Über uns</a></li><li><a href="#collections">Kategorien</a></li><li><a href="#contact">Kontakt</a></li><li><a href="#cart">Warenkorb</a></li></ul></div>
+      <div><p class="label">Kontakt</p><ul><li><a href="mailto:info@baeckerei-lindner.test">info@baeckerei-lindner.test</a></li><li>Annenstraße 41, 8020 Graz</li><li><a href="https://maps.google.com/?cid=4005" target="_blank" rel="noopener">Route planen</a></li><li><a href="mailto:info@baeckerei-lindner.test?subject=Vorbestellung">Jetzt vorbestellen</a></li></ul></div>
+      <div><p class="label">Öffnungszeiten</p><ul><li>Mo–Fr 6:30–18:00</li><li>Sa 7:00–12:00</li></ul></div>
+    </div>
+    <form class="f-news" data-news-form>
+      <p class="news-text">Neue Backideen und Aktionen. Einmal im Monat, nicht öfter.</p>
+      <div class="news-row"><label class="visually-hidden" for="fn-mail">E-Mail</label><input id="fn-mail" type="email" placeholder="sie@beispiel.at" required><button class="btn" type="submit">Anmelden</button></div>
+    </form>
+    <p class="wordmark" aria-hidden="true">Lindner</p>
+    <div class="f-bottom"><p>© <span data-year>2025</span> Bäckerei Lindner, Graz</p><p class="small credit-note">Fotos: Pixabay</p></div>
+  </div>
+</footer>
+
+<dialog class="nl-pop" data-nl>
+  <div class="nl-in">
+    <div class="ph nl-img"><img data-pixabay="fresh bread basket" data-orientation="vertical" alt="Frisches Brot im Korb" width="340" height="460" loading="lazy"></div>
+    <div class="nl-copy">
+      <button type="button" class="nl-close" data-nl-close aria-label="Schließen">Schließen</button>
+      <p class="label">Newsletter</p>
+      <h2 class="d">Frisch informiert.</h2>
+      <p>Erfahren Sie als Erste von saisonalen Backideen und Festtagsbestellungen.</p>
+      <form data-nl-form><label class="visually-hidden" for="nl-mail">E-Mail</label><input id="nl-mail" type="email" placeholder="sie@beispiel.at" required><button class="btn" type="submit">Anmelden</button></form>
+      <button type="button" class="arrow-link" data-nl-close>Nein, danke</button>
+      <p class="small">Sie können sich jederzeit abmelden.</p>
+    </div>
+  </div>
+</dialog>
+
+<dialog class="search-dlg" data-search>
+  <form method="dialog" class="search-top"><label class="visually-hidden" for="s-in">Suche</label><input id="s-in" type="search" placeholder="Brot, Torte, Kekse …" autocomplete="off" data-search-input><button class="arrow-link" type="submit">Schließen</button></form>
+  <ul class="search-res" data-search-res></ul>
+</dialog>
+
+<div class="toast" data-toast role="status" aria-live="polite"></div>
+</body>
+</html>
